@@ -1,3 +1,4 @@
+'use client';
 import { Grid, Text } from '@nextui-org/react';
 import { useEffect, useState } from 'react';
 

@@ -1,3 +1,4 @@
+'use client';
 import { Grid } from '@nextui-org/react';
 import ArtCard from '../artCard/page';
 import { useEffect, useState } from 'react';
