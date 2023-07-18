@@ -1,10 +1,17 @@
 import React from 'react';
-import Image from 'next/image';
-export default function ArtCard(props) {
-    return (
-        <div>
-            <h1>{props.title}</h1>
-            {/* <Image src={props.image} alt={props.title} width={500} height={500} /> */}
-        </div>
-    )
+import { Card, Col, Text } from '@nextui-org/react';
+export default function ArtCard(props: any) {
+  return (
+  
+      <Card style={{ width: '200px' }}>
+        <Card.Image
+          src={props.image}
+          objectFit="cover"
+          width="100%"
+          height={240}
+          alt={props.title}
+        />
+      </Card>
+  
+  );
 }

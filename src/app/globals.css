@@ -98,6 +98,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+   
 }
 
 header {
@@ -149,11 +150,17 @@ a:hover {
 }
 
 .banner-image {
- 
+  fill: red;
   box-shadow: 4px 3px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 
+
+
+
+.red:hover {
+  color: hotpink;
+}
 .arts-link {
   color: white;
   width: 90%;
@@ -236,4 +243,72 @@ a:hover {
 .schedule {
   padding-top: 20px;
 }
+
+.banner-text {
+  font-family: "Gentium Plus", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  /*uppercase*/
+ 
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-body {
+  text-align: center;
+  width: 95%;
+}
+
+.banner-body-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5rem;
+  font-family: "Gentium Plus", serif;
+}
+
+.event-date {
+  font-size: 30px;
+ 
+  color: #120AAB;
+  font-family: "Gentium Plus", serif;
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Gentium Plus", serif;
+  text-transform: uppercase;
+
+ 
+}
+
+.event-description {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Gentium Plus", serif;
+  text-transform: capitalize;
+}
+
+.event-time {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Gentium Plus", serif;
+  text-transform: uppercase;
+  color: #000;
+
+}
+
+.event-location {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Gentium Plus", serif;
+  text-transform: capitalize;
+
+}
+
+
 

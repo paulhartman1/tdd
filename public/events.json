@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Miracle on 4th Street",
+        "description": "Miracle on 4th Christmas in July art festival Face painting and art wares",
+        "date": "07/30/2023",
+        "location": "4th and Kimbark Longmont",
+        "time": "11 AM- 4 PM"
+    },
+    {
+        "title": "SUMMER ON THE STREETS ",
+        "description": "Street art festival Face painting and art wares for sale",
+        "date": "08/12/2023",
+        "location": "4th and Coffman Longmont",
+        "time": "4 PM - 8 PM"
+    },
+    {
+        "title": "left hand beer garden ",
+        "description": "Art festival, concert  Face painting and art wares",
+        "date": "08/13/2023",
+        "location": "Left hand beer garden Longmont",
+        "time": "3 PM - 7 PM"
+    },
+    {
+        "title": "left hand beer garden ",
+        "description": "Art festival, concert  Face painting and art wares",
+        "date": "08/20/2023",
+        "location": "Left hand beer garden Longmont",
+        "time": "3 PM - 7 PM"
+    }
+   
+]

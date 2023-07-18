@@ -4,14 +4,12 @@ import Calendar from '@/app/components/calendar/page';
 interface CalendarModalProps {
     open: boolean;
     onClose(): void;
+    onChange(date?:Date): void;
+    date?: Date;
 }
 
 
 export default function CalendarModal(props:CalendarModalProps) {
-
-    const [show, setShow] = useState('Paul was here');
-
-    
     return(<Modal
         closeButton
         aria-labelledby="modal-title"
@@ -19,7 +17,7 @@ export default function CalendarModal(props:CalendarModalProps) {
         onClose={props.onClose}
       >
         <Modal.Body>
-          <Calendar />
+          <Calendar onChange={props.onChange} date={props.date}/>
         </Modal.Body>
         </Modal>);
 }
